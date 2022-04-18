@@ -1,4 +1,4 @@
-# Stage_Cergy
+# Stage Data Science et Analyse de données Textuelles au laboratoire de l'IDHN à Cergy Pontoise
 
 L'IDHN (Institut des humanités numériques) est une structure fédérative en Humanités numériques (HN) qui a été créée en 2017 en lien avec le Domaine d'intérêt Majeur (DIM) Sciences du texte et connaissances nouvelles (STCN) porté par Paris Sorbonne Université et dont CY Cergy Paris Université est membre fondateur et partenaire. Elle regroupe des chercheurs de 4 laboratoires: « Lexiques, Textes, Discours, Dictionnaires » (LT2D), « Mobilités, Réseaux, Territoires, Environnement » (MRTE), Agora et « Équipes Traitement de l'Information et Systèmes » (ETIS), depuis 2017, et même avant par les collaborations entre les chercheurs de ces laboratoires, l’analyse des discours numériques a été au centre des préoccupations, en particulier en contexte électoral.
 
