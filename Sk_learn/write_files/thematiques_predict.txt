@@ -1,0 +1,1 @@
+{"international": 0.11, "aide_sociale": 0.08, "ecologie": 0.13, "education": 0.06, "democratie": 0.12, "pouvoir_achat": 0.1, "sante": 0.04, "securite": 0.1, "culture": 0.1, "emploi": 0.11, "immigration": 0.03}
