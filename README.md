@@ -9,3 +9,6 @@ L'IDHN (Institut des humanités numériques) est une structure fédérative en H
 Mon objectif de ce stage est de créer d'un modèle d'apprentissage automatique avec des algorithmes NLP sur la classification de texte dans l'analyse des réseaux sociaux sur la campagne politique. 
 
 • Contribution aux choix pertinents en matière d’analyse en temps réel de la campagne politique sur la plateforme web "Politique Quiz" (quiz politique basé sur les analyses de corpus et servira à visualiser un tableau de bord en temps réel de l’analyse des discours politique )
+
+|Ma deuxième mission consiste à développer d'un algorithme de classification : méthode de Reinert en langage Go |
+|C'est un Algorithme de clustering simple pour visualiser le découpage d'un corpus en segments.|
