@@ -4,8 +4,8 @@
 
 L'IDHN (Institut des humanités numériques) est une structure fédérative en Humanités numériques (HN) qui a été créée en 2017 en lien avec le Domaine d'intérêt Majeur (DIM) Sciences du texte et connaissances nouvelles (STCN) porté par Paris Sorbonne Université et dont CY Cergy Paris Université est membre fondateur et partenaire. Elle regroupe des chercheurs de 4 laboratoires: « Lexiques, Textes, Discours, Dictionnaires » (LT2D), « Mobilités, Réseaux, Territoires, Environnement » (MRTE), Agora et « Équipes Traitement de l'Information et Systèmes » (ETIS), depuis 2017, et même avant par les collaborations entre les chercheurs de ces laboratoires, l’analyse des discours numériques a été au centre des préoccupations, en particulier en contexte électoral.
 
-<div style="text-align: center; width="200">
-  <img src= "https://user-images.githubusercontent.com/73304946/163835531-07bb106b-f629-4322-b1c3-f93db853aada.png"/>
+<div style="text-align: center;>
+  <img src= "https://user-images.githubusercontent.com/73304946/163835531-07bb106b-f629-4322-b1c3-f93db853aada.png" width="500"/>
 </div>
 
 **Ma premier mission de ce stage est de créer d'un modèle d'apprentissage automatique avec des algorithmes NLP sur la classification de texte dans l'analyse des réseaux sociaux sur la campagne politique.**
@@ -19,8 +19,8 @@ L’étape de prétraitement des données est nécessaire pour effectuer un pré
 Après la transformation des données, nous pouvons entraîner les modèles en séparant les données de tweets et les données de catégories en choisissant les différents modèles d’apprentissage par la méthode de validation croisée.
 Enfin, après l’entraînement, nous pouvons analyser les performances du modèle de classification et choisir le modèle avec les meilleures performances prédictives.
 
-<div style="text-align: center; width="200">
-  <img src="images/Structure_generale_projet.png"/>
+<div style="text-align: center;>
+  <img src="images/Structure_generale_projet.png" width="500"/>
 </div>
 
 ## Data preprocessing : traitement des tweets et extraction de données TF-IDF  
@@ -37,15 +37,15 @@ En fait, les données textuelles ne sont pas structurées,  il est nécessaire d
 
 Le processus que nous allons utiliser s’appelle le TF-IDF (signifie en anglais Term Frequency - Inverse Document Frequency) une mesure qui permet de connaître l’importance relative de chaque mot à partir d’un ensemble de textes.
 
-<div style="text-align: center;  width="200"">
-  <img src="images/TF-IDF.png"/>
+<div style="text-align: center;>
+  <img src="images/TF-IDF.png" width="500"/>
 </div>
 
 ##  Evaluation de la performance du modèle 
 
 Notre modèle sera évalué par le rapport de classification (classification report) qui est une mesure d’évaluation des performances sur l’apprentissage automatique et aussi par la matrice de confusion (confusion matrix), un outil pour aider à mesurer les performances du modèle. On observe que plus les valeurs diagonales de la matrice confusion sont élevées, mieux elles indiquent des prédictions correctes.
 
-<div style="text-align: center;  width="200"">
+<div style="text-align: center;  width="500">
   <img src="images/Classification_evaluation_model.png"/>
 </div>
 
@@ -53,7 +53,7 @@ Notre modèle sera évalué par le rapport de classification (classification rep
 
 Pour déterminer le pourcentage de chaque catégorie, on doit compter le nombre des catégories qui sont identifiées et puis on fera la moyenne pour chaque catégorie
 
-<div style="text-align: center;  width="200"">
+<div style="text-align: center;  width="500"">
   <img src="images/Pourcentage_categorie.drawio.png"/>
 </div>
 
