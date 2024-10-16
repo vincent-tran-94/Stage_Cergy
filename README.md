@@ -20,7 +20,7 @@ Après la transformation des données, nous pouvons entraîner les modèles en s
 Enfin, après l’entraînement, nous pouvons analyser les performances du modèle de classification et choisir le modèle avec les meilleures performances prédictives.
 
 <div style="text-align: center;">
-  <img src="Structure_generale_projet.png"/>
+  <img src="images/Structure_generale_projet.png"/>
 </div>
 
 ## Data preprocessing : traitement des tweets et extraction de données TF-IDF  
@@ -38,7 +38,7 @@ En fait, les données textuelles ne sont pas structurées,  il est nécessaire d
 Le processus que nous allons utiliser s’appelle le TF-IDF (signifie en anglais Term Frequency - Inverse Document Frequency) une mesure qui permet de connaître l’importance relative de chaque mot à partir d’un ensemble de textes.
 
 <div style="text-align: center;">
-  <img src="TF-IDF.png"/>
+  <img src="images/TF-IDF.png"/>
 </div>
 
 ##  Evaluation de la performance du modèle 
@@ -46,7 +46,7 @@ Le processus que nous allons utiliser s’appelle le TF-IDF (signifie en anglais
 Notre modèle sera évalué par le rapport de classification (classification report) qui est une mesure d’évaluation des performances sur l’apprentissage automatique et aussi par la matrice de confusion (confusion matrix), un outil pour aider à mesurer les performances du modèle. On observe que plus les valeurs diagonales de la matrice confusion sont élevées, mieux elles indiquent des prédictions correctes.
 
 <div style="text-align: center;">
-  <img src="Classification_evaluation_model.png"/>
+  <img src="images/Classification_evaluation_model.png"/>
 </div>
 
 ## 	Prédiction et Pourcentage des catégories identifiées
@@ -54,7 +54,7 @@ Notre modèle sera évalué par le rapport de classification (classification rep
 Pour déterminer le pourcentage de chaque catégorie, on doit compter le nombre des catégories qui sont identifiées et puis on fera la moyenne pour chaque catégorie
 
 <div style="text-align: center;">
-  <img src="Pourcentage_categorie.png"/>
+  <img src="images/Pourcentage_categorie.drawio.png"/>
 </div>
 
 Voici 10 exemples de tweets personnalisés avec une liste des catégories. 
@@ -64,13 +64,13 @@ Voici 10 exemples de tweets personnalisés avec une liste des catégories.
 |------------------------------------------------------------------------------------|----------------------------|
 | Je veux réduire la pollution des CO2 ! #Environnement                              | Ecologie                   |
 | Le mangaka Hajime Isayama a fait des succès ! #culturejaponais                     | Culture                    |
-| Je veux augmenter les charges de travail pour toutes les entreprises ! #MarinePrésident | Emploi                     |
+| Je veux augmenter les charges de travail pour toutes les entreprises ! #MarinePrésident | Emploi                |
 | Il faut aider le peuple ukrainien à l’alimentation ! #social                       | Aide sociale               |
 | On doit protéger les matières premières pour notre planète ! #YannickJadot         | Sécurité                   |
-| Nous avons besoin plus de postes de travail aux entreprises pour les jeunes ! #MacronPrésident | Emploi              |
-| Je veux lutter contre la déforestation. J’appelle à tous les Français se mobiliser ! | Ecologie                  |
+| Nous avons besoin plus de postes de travail aux entreprises pour les jeunes ! #MacronPrésident | Emploi         |
+| Je veux lutter contre la déforestation. J’appelle à tous les Français se mobiliser ! | Ecologie                 |
 | Limiter le réchauffement climatique ! Protégeons notre planète !                   | Ecologie                   |
-| Nous voudrions augmenter le salaire pour les entreprises qui sont en crise sanitaire | Emploi                    |
+| Nous voudrions augmenter le salaire pour les entreprises qui sont en crise sanitaire | Emploi                   |
 | Association et mobilisation des peuples ukrainiens !                               | Aide sociale               |
 
 
